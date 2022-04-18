@@ -8,7 +8,6 @@ def playSong():
     pygame.init()
     pygame.mixer.music.load(musica)
     pygame.mixer.music.play()
-    pygame.event.wait()
 def pauseSong():
     pygame.mixer.music.pause()
 
